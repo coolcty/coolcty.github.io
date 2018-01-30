@@ -1,0 +1,70 @@
+#-*- mode: org -*-
+#+STARTUP: showall
+# +TITLE: This is the title of the document
+# +OPTIONS: toc:2 (only to two levels in TOC)
+# +OPTIONS: toc:nil (no TOC at all)
+
+#+LATEX_HEADER_EXTRA: \usepackage{amsmath}
+#+LATEX_HEADER_EXTRA: \usepackage{amsthm}
+*** 
+* Welcome to 
+
+  Welcome, and thanks for trying out Org mode. Making outlines in
+  Org is very simple. It is just text! Just start typing.
+* This is a headline, it starts with one or more stars
+  A heading has one star, a sub-heading two, etc.
+* Working with lists
+** Moving around in our outline
+** Moving around headlines
+
+* Introduction to the mathematical theory of gerneral relatity
+** De la relativit¨¦ restreint et equation d'Einstein
+*** Exercice
+Dans le cadre de relativit¨¦ restreinte, montrer qu'une particle soumise ¨¤ aucune force, se d¨¦place de mani¨¨re uniforme
+le long d'une droite de r¨¦f¨¦renciel  $S$ $(t,x,y,z)$, en d¨¦duire
+que les droites de  $S$ $(t,x,y,z)$ est en bijection avec ces de $S'$
+$(t',x',y',z')$.
+
+*** Exercice
+Montrer que la composition des vitesses inf¨¦rieurs ou ¨¦gales ¨¤ c
+est inf¨¦rieur ou ¨¦gale ¨¤ c.
+
+** I 2) L'¨¦lectromagn¨¦tisme dans $\mathbb{R}^{1,3}$;
+
+*** Exercice
+Soit $d$ la diff¨¦rentiel ext¨¦rieur, $*$ op¨¦rateur de Hodge. On
+d¨¦finit $\int <d\alpha,\beta>dx=\int <\alpha,\delta\beta>dx $. En
+utilisant $\alpha\wedge *\beta=<\alpha,\beta>dx^1\wedge dx^2\wedge
+dx^3$, montrer $\delta=*d*$. En particulier, montrer $(\delta
+F)_a=-\eta^{bc}=F_{ab,c}, o¨´ on abbr¨¦vite la diff¨¦renciel par rapport
+$x_c$ par $,c$.
+*** Exercice
+Montrer que les Equations de Maxzell s'¨¦crit sous la forme
+$dF=0,\delta F=j$ o¨´ $j=\dot{\rho}dx^0+J_idx^i$.
+
+*** Exercice
+Montere que les Equations de Maxwell dans le vide a une unique solution s'il
+v¨¦rifie des ¨¦qutions de contrainte avec une d¨¦croissance
+convenable. (Existence est fait au cours).
+
+*** Exercice 
+Quels sont les conditions sur $\rho$ pour trouver une solution pour
+les equations de Maxwell.
+
+*** Exercice
+$u:\Omega \to S^n$
+(1)Calculer l'¨¦quation d'Euler Lagrande de 
+()
+  
+
+\begin{equation}
+\nabla^2 x=\int_\Omega \frac{a}{\log{b}
+} \sum^n_{i=1} a_i d\Omega
+\end{equation}
+
+\begin{thm}
+q-fd
+\end{thm}
+
+** TODO buy airplane   
+** DONE 
